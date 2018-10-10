@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A3CB07216E6AC800F2CF2C /* GBCli.h in Headers */ = {isa = PBXBuildFile; fileRef = 7331C3C9192F0BA3003B8363 /* GBCli.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A3CB08216E6AC800F2CF2C /* GBCommandLineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 73484A151511FDA90031EF85 /* GBCommandLineParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A3CB09216E6AC800F2CF2C /* GBCommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A161511FDA90031EF85 /* GBCommandLineParser.m */; };
+		30A3CB0A216E6AC800F2CF2C /* GBOptionsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73484A171511FDA90031EF85 /* GBOptionsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A3CB0B216E6AC800F2CF2C /* GBOptionsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A181511FDA90031EF85 /* GBOptionsHelper.m */; };
+		30A3CB0C216E6AC800F2CF2C /* GBSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 73484A191511FDA90031EF85 /* GBSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A3CB0D216E6AC800F2CF2C /* GBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1A1511FDA90031EF85 /* GBSettings.m */; };
+		30A3CB0E216E6AC800F2CF2C /* GBPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 735219B4192FA1150031EAF0 /* GBPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A3CB0F216E6AC800F2CF2C /* GBPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 735219B5192FA1150031EAF0 /* GBPrint.m */; };
+		30A3CB10216E6AC800F2CF2C /* GBSettings+Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 73484A1E1511FE9E0031EF85 /* GBSettings+Application.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A3CB11216E6AC800F2CF2C /* GBSettings+Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1F1511FE9E0031EF85 /* GBSettings+Application.m */; };
+		30A3CB14216E6B3700F2CF2C /* GBCli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A3CAFF216E6A8C00F2CF2C /* GBCli.framework */; };
 		73484A011511FD010031EF85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73484A001511FD010031EF85 /* Foundation.framework */; };
 		73484A041511FD010031EF85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A031511FD010031EF85 /* main.m */; };
-		73484A1B1511FDA90031EF85 /* GBCommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A161511FDA90031EF85 /* GBCommandLineParser.m */; };
-		73484A1C1511FDA90031EF85 /* GBOptionsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A181511FDA90031EF85 /* GBOptionsHelper.m */; };
-		73484A1D1511FDA90031EF85 /* GBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1A1511FDA90031EF85 /* GBSettings.m */; };
-		73484A201511FE9E0031EF85 /* GBSettings+Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1F1511FE9E0031EF85 /* GBSettings+Application.m */; };
-		735219B6192FA1150031EAF0 /* GBPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 735219B5192FA1150031EAF0 /* GBPrint.m */; };
 		7389A0911BF1466600CD4711 /* SwiftyOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389A0901BF1466600CD4711 /* SwiftyOptions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30A3CB12216E6B2C00F2CF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734849F31511FD010031EF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A3CAFE216E6A8C00F2CF2C;
+			remoteInfo = GBCli;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		734849FA1511FD010031EF85 /* CopyFiles */ = {
@@ -30,8 +47,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		30A3CAFF216E6A8C00F2CF2C /* GBCli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBCli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A3CB02216E6A8C00F2CF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7331C3C9192F0BA3003B8363 /* GBCli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBCli.h; sourceTree = "<group>"; };
-		734849FC1511FD010031EF85 /* GBCli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GBCli; sourceTree = BUILT_PRODUCTS_DIR; };
+		734849FC1511FD010031EF85 /* GBCliApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GBCliApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		73484A001511FD010031EF85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73484A031511FD010031EF85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73484A061511FD010031EF85 /* GBCli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBCli-Prefix.pch"; sourceTree = "<group>"; };
@@ -50,10 +69,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		30A3CAFC216E6A8C00F2CF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		734849F91511FD010031EF85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A3CB14216E6B3700F2CF2C /* GBCli.framework in Frameworks */,
 				73484A011511FD010031EF85 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +100,8 @@
 		734849FD1511FD010031EF85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				734849FC1511FD010031EF85 /* GBCli */,
+				734849FC1511FD010031EF85 /* GBCliApp */,
+				30A3CAFF216E6A8C00F2CF2C /* GBCli.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +126,7 @@
 		73484A051511FD010031EF85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30A3CB02216E6A8C00F2CF2C /* Info.plist */,
 				73484A061511FD010031EF85 /* GBCli-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -135,10 +164,44 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		30A3CAFA216E6A8C00F2CF2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A3CB07216E6AC800F2CF2C /* GBCli.h in Headers */,
+				30A3CB08216E6AC800F2CF2C /* GBCommandLineParser.h in Headers */,
+				30A3CB0A216E6AC800F2CF2C /* GBOptionsHelper.h in Headers */,
+				30A3CB0C216E6AC800F2CF2C /* GBSettings.h in Headers */,
+				30A3CB0E216E6AC800F2CF2C /* GBPrint.h in Headers */,
+				30A3CB10216E6AC800F2CF2C /* GBSettings+Application.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		734849FB1511FD010031EF85 /* GBCli */ = {
+		30A3CAFE216E6A8C00F2CF2C /* GBCli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73484A0B1511FD010031EF85 /* Build configuration list for PBXNativeTarget "GBCli" */;
+			buildConfigurationList = 30A3CB04216E6A8C00F2CF2C /* Build configuration list for PBXNativeTarget "GBCli" */;
+			buildPhases = (
+				30A3CAFA216E6A8C00F2CF2C /* Headers */,
+				30A3CAFB216E6A8C00F2CF2C /* Sources */,
+				30A3CAFC216E6A8C00F2CF2C /* Frameworks */,
+				30A3CAFD216E6A8C00F2CF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBCli;
+			productName = GBCli;
+			productReference = 30A3CAFF216E6A8C00F2CF2C /* GBCli.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		734849FB1511FD010031EF85 /* GBCliApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73484A0B1511FD010031EF85 /* Build configuration list for PBXNativeTarget "GBCliApp" */;
 			buildPhases = (
 				734849F81511FD010031EF85 /* Sources */,
 				734849F91511FD010031EF85 /* Frameworks */,
@@ -147,10 +210,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				30A3CB13216E6B2C00F2CF2C /* PBXTargetDependency */,
 			);
-			name = GBCli;
+			name = GBCliApp;
 			productName = GBCli;
-			productReference = 734849FC1511FD010031EF85 /* GBCli */;
+			productReference = 734849FC1511FD010031EF85 /* GBCliApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -160,8 +224,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 1000;
 				TargetAttributes = {
+					30A3CAFE216E6A8C00F2CF2C = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
 					734849FB1511FD010031EF85 = {
 						LastSwiftMigration = 0820;
 					};
@@ -179,39 +247,176 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				734849FB1511FD010031EF85 /* GBCli */,
+				734849FB1511FD010031EF85 /* GBCliApp */,
+				30A3CAFE216E6A8C00F2CF2C /* GBCli */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		30A3CAFD216E6A8C00F2CF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		30A3CAFB216E6A8C00F2CF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A3CB09216E6AC800F2CF2C /* GBCommandLineParser.m in Sources */,
+				30A3CB0B216E6AC800F2CF2C /* GBOptionsHelper.m in Sources */,
+				30A3CB0D216E6AC800F2CF2C /* GBSettings.m in Sources */,
+				30A3CB0F216E6AC800F2CF2C /* GBPrint.m in Sources */,
+				30A3CB11216E6AC800F2CF2C /* GBSettings+Application.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		734849F81511FD010031EF85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735219B6192FA1150031EAF0 /* GBPrint.m in Sources */,
 				73484A041511FD010031EF85 /* main.m in Sources */,
-				73484A1B1511FDA90031EF85 /* GBCommandLineParser.m in Sources */,
-				73484A1C1511FDA90031EF85 /* GBOptionsHelper.m in Sources */,
-				73484A1D1511FDA90031EF85 /* GBSettings.m in Sources */,
-				73484A201511FE9E0031EF85 /* GBSettings+Application.m in Sources */,
 				7389A0911BF1466600CD4711 /* SwiftyOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		30A3CB13216E6B2C00F2CF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A3CAFE216E6A8C00F2CF2C /* GBCli */;
+			targetProxy = 30A3CB12216E6B2C00F2CF2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		30A3CB05216E6A8C00F2CF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = GBCli/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = co.roberson.GBCli;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30A3CB06216E6A8C00F2CF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = GBCli/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = co.roberson.GBCli;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		73484A091511FD010031EF85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -245,11 +450,21 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -267,6 +482,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
@@ -300,6 +516,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30A3CB04216E6A8C00F2CF2C /* Build configuration list for PBXNativeTarget "GBCli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A3CB05216E6A8C00F2CF2C /* Debug */,
+				30A3CB06216E6A8C00F2CF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		734849F61511FD010031EF85 /* Build configuration list for PBXProject "GBCli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -309,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73484A0B1511FD010031EF85 /* Build configuration list for PBXNativeTarget "GBCli" */ = {
+		73484A0B1511FD010031EF85 /* Build configuration list for PBXNativeTarget "GBCliApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73484A0C1511FD010031EF85 /* Debug */,
