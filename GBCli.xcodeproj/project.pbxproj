@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3052CC61216E76C500CB7733 /* GBSettings+Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1F1511FE9E0031EF85 /* GBSettings+Application.m */; };
 		30A3CB07216E6AC800F2CF2C /* GBCli.h in Headers */ = {isa = PBXBuildFile; fileRef = 7331C3C9192F0BA3003B8363 /* GBCli.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A3CB08216E6AC800F2CF2C /* GBCommandLineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 73484A151511FDA90031EF85 /* GBCommandLineParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A3CB09216E6AC800F2CF2C /* GBCommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A161511FDA90031EF85 /* GBCommandLineParser.m */; };
@@ -16,8 +17,6 @@
 		30A3CB0D216E6AC800F2CF2C /* GBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1A1511FDA90031EF85 /* GBSettings.m */; };
 		30A3CB0E216E6AC800F2CF2C /* GBPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 735219B4192FA1150031EAF0 /* GBPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A3CB0F216E6AC800F2CF2C /* GBPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 735219B5192FA1150031EAF0 /* GBPrint.m */; };
-		30A3CB10216E6AC800F2CF2C /* GBSettings+Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 73484A1E1511FE9E0031EF85 /* GBSettings+Application.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30A3CB11216E6AC800F2CF2C /* GBSettings+Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A1F1511FE9E0031EF85 /* GBSettings+Application.m */; };
 		30A3CB14216E6B3700F2CF2C /* GBCli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A3CAFF216E6A8C00F2CF2C /* GBCli.framework */; };
 		73484A011511FD010031EF85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73484A001511FD010031EF85 /* Foundation.framework */; };
 		73484A041511FD010031EF85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73484A031511FD010031EF85 /* main.m */; };
@@ -174,7 +173,6 @@
 				30A3CB0A216E6AC800F2CF2C /* GBOptionsHelper.h in Headers */,
 				30A3CB0C216E6AC800F2CF2C /* GBSettings.h in Headers */,
 				30A3CB0E216E6AC800F2CF2C /* GBPrint.h in Headers */,
-				30A3CB10216E6AC800F2CF2C /* GBSettings+Application.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +270,6 @@
 				30A3CB0B216E6AC800F2CF2C /* GBOptionsHelper.m in Sources */,
 				30A3CB0D216E6AC800F2CF2C /* GBSettings.m in Sources */,
 				30A3CB0F216E6AC800F2CF2C /* GBPrint.m in Sources */,
-				30A3CB11216E6AC800F2CF2C /* GBSettings+Application.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3052CC61216E76C500CB7733 /* GBSettings+Application.m in Sources */,
 				73484A041511FD010031EF85 /* main.m in Sources */,
 				7389A0911BF1466600CD4711 /* SwiftyOptions.swift in Sources */,
 			);
