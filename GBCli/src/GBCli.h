@@ -8,6 +8,7 @@
 
 // Imports all source files for GBCli
 
+#import "GBSettings+Application.h"
 #import "GBCommandLineParser.h"
 #import "GBSettings.h"
 #import "GBOptionsHelper.h"
